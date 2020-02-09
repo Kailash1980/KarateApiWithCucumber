@@ -1,0 +1,26 @@
+<testsuite failures="0" name="src/test/java/features/country.feature" skipped="0" tests="3" time="7.096265">
+  <testcase classname="src.test.java.features.country" name="get list of all countries" time="5.360234">
+    <system-out>Given url 'https://restcountries.eu/rest/v2/all' .......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.country" name="get list of all region" time="1.00646">
+    <system-out>Given url 'https://restcountries.eu/rest/v2/all' .......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.country" name="get list of all language" time="0.729572">
+    <system-out>Given url 'https://restcountries.eu/rest/v2/all' .......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://restcountries.eu/rest/v2/region/europe' ................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
